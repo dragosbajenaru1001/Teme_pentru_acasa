@@ -223,7 +223,7 @@ class RAGAssistant:
     def is_relevant(self, user_input: str) -> bool:
         # ToDo: Ajustati pragul de similaritate pentru a se potrivi mai bine cu domeniul dvs, astfel incat sa echilibreze corect intre a permite intrebari relevante si a respinge cele irelevante.
         """Verifica daca intrarea utilizatorului e despre ...."""
-        return self.calculate_similarity(user_input) >= 0.35
+        return self.calculate_similarity(user_input) >= 0.5
 
     def assistant_response(self, user_message: str) -> str:
         """Directioneaza mesajul utilizatorului catre calea potrivita."""

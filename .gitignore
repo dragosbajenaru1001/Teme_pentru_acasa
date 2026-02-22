@@ -42,6 +42,7 @@ __pycache__/
 *.index
 temp_files/
 *.venv/
+*venv/
 *.deepeval/
 
 # Ignore tfhub_cache files
